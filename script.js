@@ -598,19 +598,19 @@ function animateStats() {
         if (stats[0]) {
             stats[0].classList.add('show');
         }
-    }, 1500);
+    }, 500);
     
     setTimeout(() => {
         if (stats[1]) {
             stats[1].classList.add('show');
         }
-    }, 3000);
+    }, 1000);
     
     setTimeout(() => {
         if (stats[2]) {
             stats[2].classList.add('show');
         }
-    }, 4500);
+    }, 1500);
 }
 
 // Scroll to top functionality
@@ -867,4 +867,5 @@ class ImageModal {
 // Initialize Image Modal
 document.addEventListener('DOMContentLoaded', () => {
     new ImageModal();
+
 });
