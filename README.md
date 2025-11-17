@@ -11,7 +11,7 @@ This project serves as a digital portfolio to showcase my journey as an **AI Pro
 Visit the live site at: **[gpmoroni.com](https://gpmoroni.com)**
 
 ## Tech Stack
-I chose to build this website from scratch to keep the code lightweight and to refine my non-existent web developer skills without relying on heavy frameworks.
+I chose to build this website from scratch to keep the code lightweight and to refine my almost-non-existent web developer skills without relying on heavy frameworks.
 
 * **Frontend:** Semantic HTML5, CSS3 (Custom properties, Flexbox/Grid), JavaScript (Vanilla).
 * **Icons:** [Lucide Icons](https://lucide.dev/).
@@ -31,14 +31,6 @@ The website is organized as a Single Page Application (SPA) with smooth navigati
 5.  **FAQ:** An accordion section answering frequently asked questions and sharing some fun facts.
 6.  **Contacts:** A "Floating Action Button" for quick access to Email, LinkedIn, and Phone.
 
-## UI/UX Features
-* **Responsive Navigation:** Navbar with a hamburger menu for mobile devices.
-* **Interactivity:** JavaScript handles smooth scrolling, project card expansion, image sliders, and FAQ toggles.
-* **Accessibility:** Semantic structure and focus on readability (optimized primarily for desktop as noted in the footer).
-
 ## Contact
 * **LinkedIn:** [Gianluca Paolo Moroni](https://www.linkedin.com/in/gianluca-paolo-moroni-5a9327205/)
 * **Email:** [gianluca.paolo.moroni@gmail.com](mailto:gianluca.paolo.moroni@gmail.com)
-
----
-&copy; 2025 Gianluca Paolo Moroni. All rights reserved.
