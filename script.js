@@ -395,13 +395,13 @@ if (profileImg && magicWandBtn) {
         if (!isFlipped) {
             profileImg.style.transform = 'rotateY(180deg)';
             setTimeout(() => {
-                profileImg.src = 'photo profilo con camicia crop.png';
+                profileImg.src = 'images/photo_profilo_con_camicia_crop.png';
                 isFlipped = true;
             }, 400);
         } else {
             profileImg.style.transform = 'rotateY(0deg)';
             setTimeout(() => {
-                profileImg.src = 'photo profilo nexi crop.jpg';
+                profileImg.src = 'images/photo_profilo_nexi_crop.jpg';
                 isFlipped = false;
             }, 400);
         }
@@ -604,13 +604,13 @@ function animateStats() {
         if (stats[1]) {
             stats[1].classList.add('show');
         }
-    }, 1000);
+    }, 750);
     
     setTimeout(() => {
         if (stats[2]) {
             stats[2].classList.add('show');
         }
-    }, 1500);
+    }, 1000);
 }
 
 // Scroll to top functionality
@@ -867,5 +867,4 @@ class ImageModal {
 // Initialize Image Modal
 document.addEventListener('DOMContentLoaded', () => {
     new ImageModal();
-
 });
