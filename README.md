@@ -18,6 +18,7 @@ I chose to build this website from scratch to keep the code lightweight and to r
 * **Font:** Inter (Google Fonts).
 * **Development Tools:** VS Code, GitHub Copilot.
 
+## Site Structure
 | Section | Description |
 |----------|-------------|
 | **Home** | Hero section featuring an introduction, my current role, and key statistics. |
