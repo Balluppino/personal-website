@@ -18,18 +18,14 @@ I chose to build this website from scratch to keep the code lightweight and to r
 * **Font:** Inter (Google Fonts).
 * **Development Tools:** VS Code, GitHub Copilot.
 
-## Site Structure
-The website is organized as a Single Page Application (SPA) with smooth navigation between sections:
-
-1.  **Home:** Hero section featuring an introduction, my current role (Nexi Group), and key statistics.
-2.  **About:** Personal bio, academic and professional background, and main achievements.
-3.  **Projects:** A showcase of major projects with expandable cards displaying technical details, roles, and results.
-    * *Enterprise-wide HR Chatbot*
-    * *Meeting Minutes Chatbot*
-    * *Manufacturing Optimization Project*
-4.  **Competences:** Grid layout with tags for Language skills, AI & Data stack, and Soft skills.
-5.  **FAQ:** An accordion section answering frequently asked questions and sharing some fun facts.
-6.  **Contacts:** A "Floating Action Button" for quick access to Email, LinkedIn, and Phone.
+| Section | Description |
+|----------|-------------|
+| **Home** | Hero section featuring an introduction, my current role, and key statistics. |
+| **About** | Personal bio, academic and professional background, and main achievements. |
+| **Projects** | A showcase of major projects with expandable cards displaying technical details, roles, and results: an Enterprise-wide HR Chatbot, a Meeting Minutes Chatbot, and a Manufacturing Optimization Project. |
+| **Competences** | Grid layout with tags for Language skills, AI & Data stack, and Soft skills. |
+| **FAQ** | An accordion section answering frequently asked questions and sharing some fun facts. |
+| **Contacts** | A floating action button for quick access to Email, LinkedIn, and Phone. |
 
 ## Contact
 * **LinkedIn:** [Gianluca Paolo Moroni](https://www.linkedin.com/in/gianluca-paolo-moroni-5a9327205/)
