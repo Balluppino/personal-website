@@ -31,3 +31,6 @@ I chose to build this website from scratch to keep the code lightweight and to r
 ## Contact
 * **LinkedIn:** [Gianluca Paolo Moroni](https://www.linkedin.com/in/gianluca-paolo-moroni-5a9327205/)
 * **Email:** [gianluca.paolo.moroni@gmail.com](mailto:gianluca.paolo.moroni@gmail.com)
+
+## License
+© 2025 **Gianluca Paolo Moroni** – All rights reserved. This repository is proprietary. Unauthorized copying, distribution, or modification is prohibited.
