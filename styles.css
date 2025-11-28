@@ -1820,7 +1820,7 @@ body::before {
 }
 
 .floating-contact-btn.expanded {
-    height: 170px;
+    height: 220px;
     border-radius: 25px;
     bottom: 110px;
     background: rgba(255, 255, 255, 0.95);
