@@ -23,7 +23,7 @@ I chose to build this website from scratch to keep the code lightweight and to r
 |----------|-------------|
 | **Home** | Hero section featuring an introduction, my current role, and key statistics. |
 | **About** | Personal bio, academic and professional background, and main achievements. |
-| **Projects** | A showcase of major projects with expandable cards displaying technical details, roles, and results: an Enterprise-wide HR Chatbot, a Meeting Minutes Chatbot, and a Manufacturing Optimization Project. |
+| **Projects** | A showcase of major projects with expandable cards displaying technical details, roles, and results. |
 | **Competences** | Grid layout with tags for Language skills, AI & Data stack, and Soft skills. |
 | **FAQ** | An accordion section answering frequently asked questions and sharing some fun facts. |
 | **Contacts** | A floating action button for quick access to Email, LinkedIn, and Phone. |
