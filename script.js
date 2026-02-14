@@ -5,6 +5,64 @@ if (typeof lucide !== 'undefined' && typeof lucide.createIcons === 'function') {
     console.warn('Lucide non è caricato correttamente.');
 }
 
+// Password Protection System
+const PASSWORD = '1111';
+const passwordOverlay = document.getElementById('passwordOverlay');
+const passwordForm = document.getElementById('passwordForm');
+const passwordInput = document.getElementById('passwordInput');
+const passwordError = document.getElementById('passwordError');
+
+// Show password overlay after 3.5 second delay (unless already unlocked)
+if (sessionStorage.getItem('siteUnlocked') !== 'true') {
+    // Allow viewing site for 3.5 seconds before showing password overlay
+    setTimeout(() => {
+        passwordOverlay.classList.add('show');
+        document.body.style.overflow = 'hidden';
+        
+        // Focus on password input after animation
+        setTimeout(() => {
+            passwordInput.focus();
+        }, 500);
+    }, 3500);
+}
+
+passwordForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const enteredPassword = passwordInput.value;
+    
+    if (enteredPassword === PASSWORD) {
+        // Correct password
+        sessionStorage.setItem('siteUnlocked', 'true');
+        passwordOverlay.classList.remove('show');
+        passwordOverlay.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+        passwordError.style.display = 'none';
+        
+        // Reinitialize Lucide icons for the main content
+        setTimeout(() => {
+            if (typeof lucide !== 'undefined' && typeof lucide.createIcons === 'function') {
+                lucide.createIcons();
+            }
+        }, 500);
+    } else {
+        // Wrong password
+        passwordError.style.display = 'flex';
+        passwordInput.value = '';
+        passwordInput.focus();
+        
+        // Shake animation
+        passwordInput.style.animation = 'none';
+        setTimeout(() => {
+            passwordInput.style.animation = 'shake 0.5s ease';
+        }, 10);
+        
+        // Reinitialize Lucide icons for error icon
+        if (typeof lucide !== 'undefined' && typeof lucide.createIcons === 'function') {
+            lucide.createIcons();
+        }
+    }
+});
+
 // Navigation functionality
 const navbar = document.querySelector('.navbar');
 const navLinks = document.querySelectorAll('.nav-link');

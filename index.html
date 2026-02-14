@@ -11,6 +11,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Password Protection Overlay -->
+    <div class="password-overlay" id="passwordOverlay">
+        <div class="password-container">
+            <div class="password-icon">
+                <i data-lucide="lock"></i>
+            </div>
+            <h2>Welcome!</h2>
+            <p>Please enter the password to continue.</p>
+            <form id="passwordForm" class="password-form">
+                <input 
+                    type="password" 
+                    id="passwordInput" 
+                    class="password-input" 
+                    placeholder=""
+                    maxlength="4"
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit" class="password-submit">
+                    <span>Unlock</span>
+                </button>
+            </form>
+            <div class="password-error" id="passwordError" style="display: none;">
+                <i data-lucide="alert-circle"></i>
+                <span>Incorrect password. Please try again.</span>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -116,14 +145,13 @@
                         </p>
 
                         <p>
-                        Beyond developing and delivering real-world solutions, I mentor teams on how to integrate AI into daily workflows. 
-                        In 2024, I received Nexi’s internal <strong>#MakeTheDifference</strong> award 
-                        for driving measurable innovation and impact.
+                        Beyond developing and delivering real-world solutions, I mentor C-level executives on how to integrate AI into daily workflows. 
+                        In 2024, I received Nexi’s internal <strong>#MakeTheDifference</strong> award for driving measurable innovation and impact.
                         </p>
 
                         <p>
                         Since 2023, I co-lead <a href="https://calcioseduto.it" target="_blank" rel="noopener">Calcio Seduto</a> (or Seated Football), 
-                        a non-profit initiative that brings children with disabilities closer to sports through an inclusive sport we invented.
+                        a non-profit initiative in partnership with <a href="https://www.fondazionemilan.org/i-progetti/calcio-seduto/" target="_blank" rel="noopener">AC Milan</a> that brings children with disabilities closer to sports through an inclusive sport we invented.
                         </p>
                     </div>
                 </div>
@@ -155,10 +183,10 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Data Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title">Data Projects</h2>
             <p class="section-subtitle"></p>
             <div class="projects-grid">
                 <div class="project-card" data-project="1">
@@ -340,6 +368,66 @@
                                 and logistics, and reduced process time) while maintaining the tissue's functional properties, surpassing state-of-the-art 
                                 results.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Projects Section -->
+    <section id="other-projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Other Projects</h2>
+            <p class="section-subtitle"></p>
+            <div class="projects-grid">
+                <div class="project-card" data-project="4">
+                    <button class="card-toggle-btn">
+                        <span class="btn-text">Explore</span>
+                    </button>
+                    <div class="project-header">
+                        <div class="project-image">
+                            <img src="images/award_calcio_seduto.jpeg" alt="Calcio Seduto Project">
+                        </div>
+                        <div class="project-summary">
+                            <h3>Calcio Seduto (Seated Football)</h3>
+                            <p class="project-brief"><strong>Co-founder</strong> of an inclusive sport initiative in partnership with <strong>AC Milan</strong>, bringing children with disabilities closer to sports through an innovative game we invented.</p>
+                            <div class="project-tech">
+                                <span>Co-founder</span>
+                                <span>Non-profit</span>
+                                <span>Partnership with AC Milan</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-content">
+                            <div class="content-section">
+                             <h4>Project Overview</h4>
+                            <p>
+                            <strong>Calcio Seduto</strong> (Seated Football) is a non-profit initiative I co-founded in <strong>2023</strong> to help my best friend’s younger brother play soccer.  
+                            What started as a simple game we used to play together in their living room has evolved into a <strong>real sport</strong> that enables children with motor disabilities to play football while seated.  
+                            The project has established a <strong>partnership with AC Milan</strong>, one of the world’s most prestigious football clubs, bringing strong visibility and credibility to our mission.
+                            </p>
+                            </div>
+                            <div class="content-section">
+                            <h4>What my role is</h4>
+                            <p>
+                            <ul>
+                                <li>Lead strategic initiatives and manage key commercial partnerships, including Fondazione Milan, BCC Milano, and Sportler</li>
+                                <li>Direct and coordinate a team of 20+ volunteers, including physiotherapists and coaches, ensuring smooth operations and alignment with the project’s mission</li>
+                                <li>Oversee communication and outreach strategy, coordinating a team of 3 collaborators responsible for social media strategy and content distribution across <a href="https://www.youtube.com/@CalcioSeduto" target="_blank" rel="noopener">YouTube</a> and <a href="https://www.instagram.com/calcioseduto_fatimatraccia/" target="_blank" rel="noopener">Instagram</a></li>
+                                <li>Design, build, and manage the official website (<a href="https://calcioseduto.it" target="_blank" rel="noopener">www.calcioseduto.it</a>)</li>
+                            </ul>
+                            </p>
+                            </div>
+                            <div class="content-section">
+                            <h4>Impact</h4>
+                            <p>
+                            Now in its third season, Calcio Seduto has supported <strong>more than 40 children</strong> over the past three years, and currently has 10 active players on the team. 
+                            Thanks to our commercial partnerships, the initiative continues to grow, and we are expanding by establishing <strong>3 additional teams</strong> with the goal of creating an official league where teams can compete together. 
+                            Our efforts have also secured national media coverage, including a feature in <a href="https://milano.repubblica.it/cronaca/2025/12/25/news/fatima_traccia_squadra_calcio_seduto-425060321/" target="_blank" rel="noopener">la Repubblica</a>, further strengthening the project’s visibility and institutional credibility.
+                            </p>
                             </div>
                         </div>
                     </div>
