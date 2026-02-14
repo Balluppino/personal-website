@@ -5,6 +5,7 @@ if (typeof lucide !== 'undefined' && typeof lucide.createIcons === 'function') {
     console.warn('Lucide non è caricato correttamente.');
 }
 
+/*
 // Password Protection System
 const PASSWORD = '1111';
 const passwordOverlay = document.getElementById('passwordOverlay');
@@ -62,6 +63,7 @@ passwordForm.addEventListener('submit', (e) => {
         }
     }
 });
+*/
 
 // Navigation functionality
 const navbar = document.querySelector('.navbar');
