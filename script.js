@@ -261,16 +261,14 @@ class ProjectCardManager {
             existingIcon.remove();
         }
         
-        const closeIcon = document.createElement('i');
-        closeIcon.setAttribute('data-lucide', 'x');
-        closeIcon.className = 'btn-icon';
-        toggleBtn.appendChild(closeIcon);
-        
         lucide.createIcons();
     }
 
     closeCard(card) {
+        // Add collapsing class to prevent rounded corners during animation
+        card.classList.add('collapsing');
         card.classList.remove('expanded');
+        
         const toggleBtn = card.querySelector('.card-toggle-btn');
         const btnText = toggleBtn.querySelector('.btn-text');
         const btnIcon = toggleBtn.querySelector('.btn-icon');
@@ -279,6 +277,11 @@ class ProjectCardManager {
         if (btnIcon) {
             btnIcon.remove();
         }
+        
+        // Remove collapsing class after animation completes
+        setTimeout(() => {
+            card.classList.remove('collapsing');
+        }, 600);
         
         lucide.createIcons();
     }
