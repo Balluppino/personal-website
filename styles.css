@@ -874,6 +874,7 @@ body::before {
     width: 100%;
     background: var(--white);
     box-shadow: none;
+    border: 1px solid #667eea;
 }
 
 .project-card:hover {
@@ -947,12 +948,10 @@ body::before {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
     white-space: nowrap;
 }
 
 .pdf-download-btn:hover {
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
     transform: translateY(-1px);
 }
 
