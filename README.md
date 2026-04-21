@@ -5,18 +5,10 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 Welcome to the repository of my personal website, **gpmoroni.com**.
-This project serves as a digital portfolio to showcase my journey as an **AI Product Engineer**, my key projects, and my technical skills.
+This project serves as a digital portfolio to showcase my journey as an **AI Engineer**, my key projects, and my technical skills.
 
 ## Live Demo
 Visit the live site at: **[gpmoroni.com](https://gpmoroni.com)**
-
-## Tech Stack
-I chose to build this website from scratch to keep the code lightweight and to refine my almost-non-existent web developer skills without relying on heavy frameworks.
-
-* **Frontend:** Semantic HTML5, CSS3 (Custom properties, Flexbox/Grid), JavaScript (Vanilla).
-* **Icons:** [Lucide Icons](https://lucide.dev/).
-* **Font:** Inter (Google Fonts).
-* **Development Tools:** VS Code, GitHub Copilot.
 
 ## Site Structure
 | Section | Description |
