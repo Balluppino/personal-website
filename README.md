@@ -4,8 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Welcome to the repository of my personal website, **gpmoroni.com**.
-This project serves as a digital portfolio to showcase my journey as an **AI Engineer**, my key projects, and my technical skills.
+This repository serves as a digital portfolio to showcase my journey as an **AI Engineer**, my key projects, and my technical skills.
 
 ## Live Demo
 Visit the live site at: **[gpmoroni.com](https://gpmoroni.com)**
